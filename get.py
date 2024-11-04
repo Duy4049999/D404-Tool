@@ -1,4 +1,4 @@
-#vLong ne
+#D404Tool
 den = '[1;90m'
 luc = '[1;32m'
 trang = '[1;37m'
@@ -14,7 +14,7 @@ xduong = '[1;95m'
 do = '[1;33m'
 thanh_xau = trang + '' + lam + '[' + vang + 'vL' + lam + '] ' + trang + ' ' + luc
 thanh_dep = trang + '' + lam + '[' + luc + 'vL' + lam + '] ' + trang + ' ' + luc
-#vlongshare donhe
+#D404Tool
 import requests
 import json
 import os
@@ -31,7 +31,7 @@ except ImportError:
     os.system('pip install pystyle')
     from pystyle import Colors, Colorate
 
-secret_key = 'vLongzZ'
+secret_key = 'D404Tool'
 
 def generate_signature(data, secret_key, nonce):
     message = f'{data}{nonce}'
